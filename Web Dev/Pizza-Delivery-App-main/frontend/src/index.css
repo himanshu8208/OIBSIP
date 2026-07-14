@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-dark-text font-sans antialiased overflow-x-hidden selection:bg-primary selection:text-white;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232329;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6b08;
+  box-shadow: 0 0 10px rgba(255, 107, 8, 0.5);
+}
+
+/* Futuristic Reusable Glassmorphism Panels */
+.glass-panel {
+  background: rgba(22, 22, 26, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card {
+  background: rgba(22, 22, 26, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 107, 8, 0.3);
+  box-shadow: 0 12px 40px -10px rgba(255, 107, 8, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Glow Borders */
+.glow-border-orange {
+  border: 1px solid rgba(255, 107, 8, 0.15);
+}
+.glow-border-orange:hover {
+  border-color: #ff6b08;
+  box-shadow: 0 0 15px rgba(255, 107, 8, 0.25);
+}
+
+/* Keyframes & Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(3deg);
+  }
+}
+
+.animate-float-slow {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.2;
+    box-shadow: 0 0 15px rgba(255, 107, 8, 0.1);
+  }
+  50% {
+    opacity: 0.6;
+    box-shadow: 0 0 35px rgba(255, 107, 8, 0.45);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Glowing text */
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 107, 8, 0.3);
+}
+
+/* Loading Skeleton Animation */
+@keyframes skeleton-loading {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #1c1c22 25%, #2a2a35 37%, #1c1c22 63%);
+  background-size: 400% 100%;
+  animation: skeleton-loading 1.4s ease infinite;
+}

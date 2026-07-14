@@ -1,0 +1,1888 @@
+{
+  "User": [],
+  "Pizza": [
+    {
+      "_id": "p1",
+      "name": "Futuristic Margherita",
+      "description": "A classic neon-infused classic! Abundant premium mozzarella, fresh vine-ripened tomatoes, and aromatic basil pesto oil drizzle.",
+      "category": "veg",
+      "basePrice": 199,
+      "rating": 4.8,
+      "reviewsCount": 142,
+      "ingredients": [
+        "Premium Mozzarella",
+        "Classic Marinara",
+        "Vine-Ripened Tomatoes",
+        "Basil Pesto"
+      ],
+      "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500",
+      "sizes": [
+        {
+          "size": "Small",
+          "priceMultiplier": 1,
+          "_id": "mock_sub_1780054446549_hj8y"
+        },
+        {
+          "size": "Medium",
+          "priceMultiplier": 1.3,
+          "_id": "mock_sub_1780054446549_bdz8"
+        },
+        {
+          "size": "Large",
+          "priceMultiplier": 1.6,
+          "_id": "mock_sub_1780054446549_nyai"
+        }
+      ],
+      "isAvailable": true,
+      "id": "p1"
+    },
+    {
+      "_id": "p2",
+      "name": "Neon Pepperoni Blaze",
+      "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+      "category": "non-veg",
+      "basePrice": 349,
+      "rating": 4.9,
+      "reviewsCount": 328,
+      "ingredients": [
+        "Spicy Pepperoni",
+        "Premium Mozzarella",
+        "Sharp White Cheddar",
+        "Creamy Garlic Alfredo"
+      ],
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+      "sizes": [
+        {
+          "size": "Small",
+          "priceMultiplier": 1,
+          "_id": "mock_sub_1780054446549_uocz"
+        },
+        {
+          "size": "Medium",
+          "priceMultiplier": 1.3,
+          "_id": "mock_sub_1780054446549_vwe4"
+        },
+        {
+          "size": "Large",
+          "priceMultiplier": 1.6,
+          "_id": "mock_sub_1780054446549_h1m7"
+        }
+      ],
+      "isAvailable": true,
+      "id": "p2"
+    },
+    {
+      "_id": "p3",
+      "name": "Cyber Veggie Supreme",
+      "description": "Vibrant medley of sweet corn, crispy capsicum, red onions, mushrooms, and sliced black olives on thin crust.",
+      "category": "veg",
+      "basePrice": 279,
+      "rating": 4.6,
+      "reviewsCount": 96,
+      "ingredients": [
+        "Classic Marinara",
+        "Premium Mozzarella",
+        "Caramelized Onions",
+        "Crispy Capsicum",
+        "Sautéed Mushrooms",
+        "Sliced Black Olives",
+        "Golden Sweet Corn"
+      ],
+      "image": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=500",
+      "sizes": [
+        {
+          "size": "Small",
+          "priceMultiplier": 1,
+          "_id": "mock_sub_1780054446549_1kg2"
+        },
+        {
+          "size": "Medium",
+          "priceMultiplier": 1.3,
+          "_id": "mock_sub_1780054446549_lkml"
+        },
+        {
+          "size": "Large",
+          "priceMultiplier": 1.6,
+          "_id": "mock_sub_1780054446549_8ibl"
+        }
+      ],
+      "isAvailable": true,
+      "id": "p3"
+    },
+    {
+      "_id": "p4",
+      "name": "Galactic BBQ Chicken",
+      "description": "Tender smoked grilled chicken tossed in sticky smoky BBQ sauce, sweet corn, and red onions with bubbling liquid cheddar.",
+      "category": "non-veg",
+      "basePrice": 389,
+      "rating": 4.7,
+      "reviewsCount": 184,
+      "ingredients": [
+        "Smoked Grilled Chicken",
+        "Smoky BBQ Sauce",
+        "Caramelized Onions",
+        "Golden Sweet Corn",
+        "Liquid Cheddar Cheese"
+      ],
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500",
+      "sizes": [
+        {
+          "size": "Small",
+          "priceMultiplier": 1,
+          "_id": "mock_sub_1780054446549_1d5n"
+        },
+        {
+          "size": "Medium",
+          "priceMultiplier": 1.3,
+          "_id": "mock_sub_1780054446549_3phn"
+        },
+        {
+          "size": "Large",
+          "priceMultiplier": 1.6,
+          "_id": "mock_sub_1780054446549_hz29"
+        }
+      ],
+      "isAvailable": true,
+      "id": "p4"
+    }
+  ],
+  "Inventory": [
+    {
+      "_id": "b1",
+      "itemType": "base",
+      "itemName": "Hand-Tossed Classic",
+      "quantity": 149,
+      "threshold": 20,
+      "price": 0,
+      "isAvailable": true,
+      "id": "b1"
+    },
+    {
+      "_id": "b2",
+      "itemType": "base",
+      "itemName": "Thin Crust",
+      "quantity": 119,
+      "threshold": 20,
+      "price": 20,
+      "isAvailable": true,
+      "id": "b2"
+    },
+    {
+      "_id": "b3",
+      "itemType": "base",
+      "itemName": "Cheese Burst Crust",
+      "quantity": 90,
+      "threshold": 15,
+      "price": 90,
+      "isAvailable": true,
+      "id": "b3"
+    },
+    {
+      "_id": "b4",
+      "itemType": "base",
+      "itemName": "100% Wheat Crust",
+      "quantity": 100,
+      "threshold": 15,
+      "price": 30,
+      "isAvailable": true,
+      "id": "b4"
+    },
+    {
+      "_id": "b5",
+      "itemType": "base",
+      "itemName": "Gluten-Free Crust",
+      "quantity": 60,
+      "threshold": 10,
+      "price": 80,
+      "isAvailable": true,
+      "id": "b5"
+    },
+    {
+      "_id": "s1",
+      "itemType": "sauce",
+      "itemName": "Classic Marinara",
+      "quantity": 160,
+      "threshold": 25,
+      "price": 0,
+      "isAvailable": true,
+      "id": "s1"
+    },
+    {
+      "_id": "s2",
+      "itemType": "sauce",
+      "itemName": "Smoky BBQ Sauce",
+      "quantity": 109,
+      "threshold": 20,
+      "price": 15,
+      "isAvailable": true,
+      "id": "s2"
+    },
+    {
+      "_id": "s3",
+      "itemType": "sauce",
+      "itemName": "Creamy Garlic Alfredo",
+      "quantity": 99,
+      "threshold": 20,
+      "price": 20,
+      "isAvailable": true,
+      "id": "s3"
+    },
+    {
+      "_id": "s4",
+      "itemType": "sauce",
+      "itemName": "Zesty Basil Pesto",
+      "quantity": 80,
+      "threshold": 15,
+      "price": 30,
+      "isAvailable": true,
+      "id": "s4"
+    },
+    {
+      "_id": "s5",
+      "itemType": "sauce",
+      "itemName": "Fiery Schezwan",
+      "quantity": 130,
+      "threshold": 20,
+      "price": 10,
+      "isAvailable": true,
+      "id": "s5"
+    },
+    {
+      "_id": "c1",
+      "itemType": "cheese",
+      "itemName": "Premium Mozzarella",
+      "quantity": 179,
+      "threshold": 30,
+      "price": 40,
+      "isAvailable": true,
+      "id": "c1"
+    },
+    {
+      "_id": "c2",
+      "itemType": "cheese",
+      "itemName": "Sharp White Cheddar",
+      "quantity": 109,
+      "threshold": 20,
+      "price": 50,
+      "isAvailable": true,
+      "id": "c2"
+    },
+    {
+      "_id": "c3",
+      "itemType": "cheese",
+      "itemName": "Grated Italian Parmesan",
+      "quantity": 88,
+      "threshold": 15,
+      "price": 45,
+      "isAvailable": true,
+      "id": "c3"
+    },
+    {
+      "_id": "c4",
+      "itemType": "cheese",
+      "itemName": "Crumbled Feta",
+      "quantity": 68,
+      "threshold": 10,
+      "price": 60,
+      "isAvailable": true,
+      "id": "c4"
+    },
+    {
+      "_id": "c5",
+      "itemType": "cheese",
+      "itemName": "Liquid Cheddar Cheese",
+      "quantity": 120,
+      "threshold": 20,
+      "price": 35,
+      "isAvailable": true,
+      "id": "c5"
+    },
+    {
+      "_id": "v1",
+      "itemType": "veggie",
+      "itemName": "Caramelized Onions",
+      "quantity": 198,
+      "threshold": 25,
+      "price": 20,
+      "isAvailable": true,
+      "id": "v1"
+    },
+    {
+      "_id": "v2",
+      "itemType": "veggie",
+      "itemName": "Vine-Ripened Tomatoes",
+      "quantity": 180,
+      "threshold": 25,
+      "price": 20,
+      "isAvailable": true,
+      "id": "v2"
+    },
+    {
+      "_id": "v3",
+      "itemType": "veggie",
+      "itemName": "Crispy Capsicum",
+      "quantity": 189,
+      "threshold": 25,
+      "price": 20,
+      "isAvailable": true,
+      "id": "v3"
+    },
+    {
+      "_id": "v4",
+      "itemType": "veggie",
+      "itemName": "Spicy Green Jalapenos",
+      "quantity": 140,
+      "threshold": 20,
+      "price": 25,
+      "isAvailable": true,
+      "id": "v4"
+    },
+    {
+      "_id": "v5",
+      "itemType": "veggie",
+      "itemName": "Sliced Black Olives",
+      "quantity": 129,
+      "threshold": 20,
+      "price": 30,
+      "isAvailable": true,
+      "id": "v5"
+    },
+    {
+      "_id": "v6",
+      "itemType": "veggie",
+      "itemName": "Golden Sweet Corn",
+      "quantity": 169,
+      "threshold": 20,
+      "price": 25,
+      "isAvailable": true,
+      "id": "v6"
+    },
+    {
+      "_id": "v7",
+      "itemType": "veggie",
+      "itemName": "Sautéed Mushrooms",
+      "quantity": 110,
+      "threshold": 15,
+      "price": 30,
+      "isAvailable": true,
+      "id": "v7"
+    },
+    {
+      "_id": "m1",
+      "itemType": "meat",
+      "itemName": "Spicy Pepperoni",
+      "quantity": 159,
+      "threshold": 25,
+      "price": 60,
+      "isAvailable": true,
+      "id": "m1"
+    },
+    {
+      "_id": "m2",
+      "itemType": "meat",
+      "itemName": "Smoked Grilled Chicken",
+      "quantity": 139,
+      "threshold": 20,
+      "price": 50,
+      "isAvailable": true,
+      "id": "m2"
+    },
+    {
+      "_id": "m3",
+      "itemType": "meat",
+      "itemName": "Italian Sausage Chunks",
+      "quantity": 99,
+      "threshold": 15,
+      "price": 55,
+      "isAvailable": true,
+      "id": "m3"
+    },
+    {
+      "_id": "m4",
+      "itemType": "meat",
+      "itemName": "Shredded Smoked Ham",
+      "quantity": 88,
+      "threshold": 15,
+      "price": 50,
+      "isAvailable": true,
+      "id": "m4"
+    },
+    {
+      "_id": "m5",
+      "itemType": "meat",
+      "itemName": "Crispy Bacon Bits",
+      "quantity": 109,
+      "threshold": 15,
+      "price": 70,
+      "isAvailable": true,
+      "id": "m5"
+    }
+  ],
+  "Order": [
+    {
+      "_id": "mock_order_1780053176317_bkgz",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458329_7gfz"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T12:06:53.465Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_d25231ac60b7f218",
+        "razorpayPaymentId": "pay_sim_pabrxlco",
+        "razorpaySignature": "sig_sim_8hjgcl9lvx4"
+      },
+      "createdAt": "2026-05-29T11:12:56.319Z",
+      "updatedAt": "2026-05-29T11:12:56.319Z",
+      "id": "mock_order_1780053176317_bkgz",
+      "orderStatus": "Preparing"
+    },
+    {
+      "_id": "mock_order_1780053188111_4oz5",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458330_ybbh"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:22:30.966Z",
+      "paymentStatus": "Pending",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_9ebe8644891a8ce6"
+      },
+      "createdAt": "2026-05-29T11:13:08.111Z",
+      "updatedAt": "2026-05-29T11:13:08.111Z",
+      "id": "mock_order_1780053188111_4oz5",
+      "orderStatus": "Delivered"
+    },
+    {
+      "_id": "mock_order_1780053192008_mbp8",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458329_0h2m"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:56:44.342Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_147d624714c159ae",
+        "razorpayPaymentId": "pay_sim_mlsaeswj",
+        "razorpaySignature": "sig_sim_tauasvrny8"
+      },
+      "createdAt": "2026-05-29T11:13:12.008Z",
+      "updatedAt": "2026-05-29T11:13:12.011Z",
+      "id": "mock_order_1780053192008_mbp8",
+      "orderStatus": "In Kitchen"
+    },
+    {
+      "_id": "mock_order_1780053216231_6yra",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458329_xerq"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:56:47.377Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_9286087bf5497167",
+        "razorpayPaymentId": "pay_sim_7flqwoba",
+        "razorpaySignature": "sig_sim_vo0xje4wydc"
+      },
+      "createdAt": "2026-05-29T11:13:36.231Z",
+      "updatedAt": "2026-05-29T11:13:36.231Z",
+      "id": "mock_order_1780053216231_6yra",
+      "orderStatus": "In Kitchen"
+    },
+    {
+      "_id": "mock_order_1780053243808_3g73",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458329_1rk7"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:47:51.681Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_7209dd6df9cde48f",
+        "razorpayPaymentId": "pay_sim_c5u509qd",
+        "razorpaySignature": "sig_sim_i3yo6hhjw7a"
+      },
+      "createdAt": "2026-05-29T11:14:03.808Z",
+      "updatedAt": "2026-05-29T11:14:03.808Z",
+      "id": "mock_order_1780053243808_3g73",
+      "orderStatus": "Preparing"
+    },
+    {
+      "_id": "mock_order_1780053252349_ag3f",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458329_2m8i"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:56:40.742Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_52f38229ec6cd15a",
+        "razorpayPaymentId": "pay_sim_9hbqnam3",
+        "razorpaySignature": "sig_sim_531rmx9sq2o"
+      },
+      "createdAt": "2026-05-29T11:14:12.349Z",
+      "updatedAt": "2026-05-29T11:14:12.349Z",
+      "id": "mock_order_1780053252349_ag3f",
+      "orderStatus": "In Kitchen"
+    },
+    {
+      "_id": "mock_order_1780053510055_d5bs",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054458329_7mqo"
+        }
+      ],
+      "totalAmount": 517,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:24:39.699Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_cbad9a65d1efeffd",
+        "razorpayPaymentId": "pay_sim_i4eysuor",
+        "razorpaySignature": "sig_sim_kl0hzqup0f"
+      },
+      "createdAt": "2026-05-29T11:18:30.055Z",
+      "updatedAt": "2026-05-29T11:18:30.055Z",
+      "id": "mock_order_1780053510055_d5bs",
+      "orderStatus": "Delivered"
+    },
+    {
+      "_id": "mock_order_1780053963997_ifxd",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": null,
+          "isCustom": true,
+          "customPizzaDetails": {
+            "base": "Hand-Tossed Classic",
+            "sauce": "Smoky BBQ Sauce",
+            "cheeses": [
+              "Grated Italian Parmesan",
+              "Premium Mozzarella",
+              "Crumbled Feta"
+            ],
+            "veggies": [
+              "Caramelized Onions",
+              "Crispy Capsicum",
+              "Golden Sweet Corn"
+            ],
+            "meats": [
+              "Spicy Pepperoni",
+              "Smoked Grilled Chicken",
+              "Shredded Smoked Ham"
+            ]
+          },
+          "quantity": 1,
+          "size": "Medium",
+          "price": 583,
+          "_id": "mock_sub_1780054458329_8dxh"
+        }
+      ],
+      "totalAmount": 612,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-05-29T11:34:41.273Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_4ce48316968fba8b",
+        "razorpayPaymentId": "pay_sim_vyf3ilxm",
+        "razorpaySignature": "sig_sim_a5cfu380697"
+      },
+      "createdAt": "2026-05-29T11:26:03.997Z",
+      "updatedAt": "2026-05-29T11:26:03.997Z",
+      "id": "mock_order_1780053963997_ifxd",
+      "orderStatus": "Delivered"
+    },
+    {
+      "_id": "mock_order_1780668607861_b3lw",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904",
+            "_id": "mock_sub_1780054440015_mvxb"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p1",
+            "name": "Futuristic Margherita",
+            "description": "A classic neon-infused classic! Abundant premium mozzarella, fresh vine-ripened tomatoes, and aromatic basil pesto oil drizzle.",
+            "category": "veg",
+            "basePrice": 199,
+            "rating": 4.8,
+            "reviewsCount": 142,
+            "ingredients": [
+              "Premium Mozzarella",
+              "Classic Marinara",
+              "Vine-Ripened Tomatoes",
+              "Basil Pesto"
+            ],
+            "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1,
+                "_id": "mock_sub_1780054446549_hj8y"
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3,
+                "_id": "mock_sub_1780054446549_bdz8"
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6,
+                "_id": "mock_sub_1780054446549_nyai"
+              }
+            ],
+            "isAvailable": true,
+            "id": "p1"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 259,
+          "_id": "mock_sub_1780668607871_ak8r"
+        }
+      ],
+      "totalAmount": 312,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-06-05T14:45:07.848Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_0453102788657bee",
+        "razorpayPaymentId": "pay_sim_yc0kqkvv",
+        "razorpaySignature": "sig_sim_nzygopl8qdp"
+      },
+      "createdAt": "2026-06-05T14:10:07.861Z",
+      "updatedAt": "2026-06-05T14:10:07.861Z",
+      "id": "mock_order_1780668607861_b3lw"
+    },
+    {
+      "_id": "mock_order_1780668679478_5pd8",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904",
+            "_id": "mock_sub_1780054440015_mvxb"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": null,
+          "isCustom": true,
+          "customPizzaDetails": {
+            "base": "Thin Crust",
+            "sauce": "Creamy Garlic Alfredo",
+            "cheeses": [
+              "Sharp White Cheddar",
+              "Crumbled Feta",
+              "Grated Italian Parmesan"
+            ],
+            "veggies": [
+              "Caramelized Onions",
+              "Sliced Black Olives"
+            ],
+            "meats": [
+              "Italian Sausage Chunks",
+              "Shredded Smoked Ham",
+              "Crispy Bacon Bits"
+            ]
+          },
+          "quantity": 1,
+          "size": "Medium",
+          "price": 626,
+          "_id": "mock_sub_1780668679481_ss4j"
+        }
+      ],
+      "totalAmount": 657,
+      "deliveryAddress": {
+        "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+        "city": "Bhandara",
+        "state": "Maharashtra",
+        "zipCode": "441904"
+      },
+      "deliveryETA": "2026-06-05T14:27:07.582Z",
+      "paymentStatus": "Paid",
+      "paymentDetails": {
+        "razorpayOrderId": "order_sim_e5b10597ea070bfd",
+        "razorpayPaymentId": "pay_sim_0fvmphas",
+        "razorpaySignature": "sig_sim_utaw978mp5"
+      },
+      "createdAt": "2026-06-05T14:11:19.478Z",
+      "updatedAt": "2026-06-05T14:11:19.478Z",
+      "id": "mock_order_1780668679478_5pd8",
+      "orderStatus": "In Kitchen"
+    }
+  ],
+  "Cart": [
+    {
+      "_id": "mock_cart_1780050726708_o0eh",
+      "user": {
+        "_id": "mock_user_1780050726704_7jrc",
+        "name": "Kamlesh Bhure",
+        "email": "kamu123bhure@gmail.com",
+        "password": "$2a$10$4DMYme5nRaLUH2bx4xL9wuSn0m1Ta66KX7gq5FN2bYo97DUC2c6Yy",
+        "role": "admin",
+        "verificationToken": "c415fcf4435155ca2a7a5a0b070b8073cb440730",
+        "createdAt": "2026-05-29T10:32:06.704Z",
+        "updatedAt": "2026-05-29T10:32:06.704Z",
+        "id": "mock_user_1780050726704_7jrc"
+      },
+      "items": [],
+      "createdAt": "2026-05-29T10:32:06.708Z",
+      "updatedAt": "2026-05-29T10:32:06.708Z",
+      "id": "mock_cart_1780050726708_o0eh"
+    },
+    {
+      "_id": "mock_cart_1780051281084_3ahb",
+      "user": "mock_user_1780051281074_eesw",
+      "items": [],
+      "createdAt": "2026-05-29T10:41:21.084Z",
+      "updatedAt": "2026-05-29T10:41:21.084Z"
+    },
+    {
+      "_id": "mock_cart_1780051708506_b3b9",
+      "items": [],
+      "createdAt": "2026-05-29T10:48:28.506Z",
+      "updatedAt": "2026-05-29T10:48:28.506Z"
+    },
+    {
+      "_id": "mock_cart_1780052041068_awow",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc"
+      },
+      "items": [],
+      "createdAt": "2026-05-29T10:54:01.068Z",
+      "updatedAt": "2026-05-29T10:54:01.068Z",
+      "id": "mock_cart_1780052041068_awow"
+    },
+    {
+      "_id": "mock_cart_1780053065075_6pg8",
+      "user": "mock_user_1780050726704_7jrc",
+      "items": [],
+      "createdAt": "2026-05-29T11:11:05.075Z",
+      "updatedAt": "2026-05-29T11:11:05.075Z"
+    },
+    {
+      "_id": "mock_cart_1780053105461_64mf",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [
+        {
+          "pizza": {
+            "_id": "p2",
+            "name": "Neon Pepperoni Blaze",
+            "description": "Double layer of fiery, crispy pepperoni over strings of sharp cheddar and garlic alfredo sauce.",
+            "category": "non-veg",
+            "basePrice": 349,
+            "rating": 4.9,
+            "reviewsCount": 328,
+            "ingredients": [
+              "Spicy Pepperoni",
+              "Premium Mozzarella",
+              "Sharp White Cheddar",
+              "Creamy Garlic Alfredo"
+            ],
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+            "sizes": [
+              {
+                "size": "Small",
+                "priceMultiplier": 1
+              },
+              {
+                "size": "Medium",
+                "priceMultiplier": 1.3
+              },
+              {
+                "size": "Large",
+                "priceMultiplier": 1.6
+              }
+            ],
+            "isAvailable": true,
+            "id": "p2"
+          },
+          "isCustom": false,
+          "quantity": 1,
+          "size": "Medium",
+          "price": 454,
+          "_id": "mock_sub_1780054440019_uelr"
+        }
+      ],
+      "createdAt": "2026-05-29T11:11:45.461Z",
+      "updatedAt": "2026-05-29T11:11:45.461Z",
+      "id": "mock_cart_1780053105461_64mf"
+    },
+    {
+      "_id": "mock_cart_1780053504206_imfd",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:18:24.206Z",
+      "updatedAt": "2026-05-29T11:18:24.206Z",
+      "id": "mock_cart_1780053504206_imfd"
+    },
+    {
+      "_id": "mock_cart_1780053535490_p983",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:18:55.490Z",
+      "updatedAt": "2026-05-29T11:18:55.490Z",
+      "id": "mock_cart_1780053535490_p983"
+    },
+    {
+      "_id": "mock_cart_1780053575018_oblf",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:35.018Z",
+      "updatedAt": "2026-05-29T11:19:35.018Z",
+      "id": "mock_cart_1780053575018_oblf"
+    },
+    {
+      "_id": "mock_cart_1780053576171_8w4a",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:36.171Z",
+      "updatedAt": "2026-05-29T11:19:36.171Z",
+      "id": "mock_cart_1780053576171_8w4a"
+    },
+    {
+      "_id": "mock_cart_1780053576180_esez",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:36.180Z",
+      "updatedAt": "2026-05-29T11:19:36.180Z",
+      "id": "mock_cart_1780053576180_esez"
+    },
+    {
+      "_id": "mock_cart_1780053577024_z4t3",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.024Z",
+      "updatedAt": "2026-05-29T11:19:37.024Z",
+      "id": "mock_cart_1780053577024_z4t3"
+    },
+    {
+      "_id": "mock_cart_1780053577033_3vwj",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.033Z",
+      "updatedAt": "2026-05-29T11:19:37.033Z",
+      "id": "mock_cart_1780053577033_3vwj"
+    },
+    {
+      "_id": "mock_cart_1780053577165_gn6e",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.165Z",
+      "updatedAt": "2026-05-29T11:19:37.165Z",
+      "id": "mock_cart_1780053577165_gn6e"
+    },
+    {
+      "_id": "mock_cart_1780053577343_yjzx",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.343Z",
+      "updatedAt": "2026-05-29T11:19:37.343Z",
+      "id": "mock_cart_1780053577343_yjzx"
+    },
+    {
+      "_id": "mock_cart_1780053577349_wh9z",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.349Z",
+      "updatedAt": "2026-05-29T11:19:37.349Z",
+      "id": "mock_cart_1780053577349_wh9z"
+    },
+    {
+      "_id": "mock_cart_1780053577494_jtdp",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.494Z",
+      "updatedAt": "2026-05-29T11:19:37.494Z",
+      "id": "mock_cart_1780053577494_jtdp"
+    },
+    {
+      "_id": "mock_cart_1780053577499_w05d",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.499Z",
+      "updatedAt": "2026-05-29T11:19:37.499Z",
+      "id": "mock_cart_1780053577499_w05d"
+    },
+    {
+      "_id": "mock_cart_1780053577674_sdf0",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.674Z",
+      "updatedAt": "2026-05-29T11:19:37.674Z",
+      "id": "mock_cart_1780053577674_sdf0"
+    },
+    {
+      "_id": "mock_cart_1780053577684_cuwa",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.684Z",
+      "updatedAt": "2026-05-29T11:19:37.684Z",
+      "id": "mock_cart_1780053577684_cuwa"
+    },
+    {
+      "_id": "mock_cart_1780053577835_4pev",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:37.835Z",
+      "updatedAt": "2026-05-29T11:19:37.835Z",
+      "id": "mock_cart_1780053577835_4pev"
+    },
+    {
+      "_id": "mock_cart_1780053578088_4epk",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:19:38.088Z",
+      "updatedAt": "2026-05-29T11:19:38.088Z",
+      "id": "mock_cart_1780053578088_4epk"
+    },
+    {
+      "_id": "mock_cart_1780053634035_54bk",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:20:34.035Z",
+      "updatedAt": "2026-05-29T11:20:34.035Z",
+      "id": "mock_cart_1780053634035_54bk"
+    },
+    {
+      "_id": "mock_cart_1780053634042_qi83",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:20:34.042Z",
+      "updatedAt": "2026-05-29T11:20:34.042Z",
+      "id": "mock_cart_1780053634042_qi83"
+    },
+    {
+      "_id": "mock_cart_1780053658149_6p5e",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:20:58.149Z",
+      "updatedAt": "2026-05-29T11:20:58.149Z",
+      "id": "mock_cart_1780053658149_6p5e"
+    },
+    {
+      "_id": "mock_cart_1780053658172_m5ju",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:20:58.172Z",
+      "updatedAt": "2026-05-29T11:20:58.172Z",
+      "id": "mock_cart_1780053658172_m5ju"
+    },
+    {
+      "_id": "mock_cart_1780053662364_pp1l",
+      "user": {
+        "_id": "mock_user_1780052041037_61zc",
+        "name": "kamlesh ",
+        "email": "kamleshbhure162003@gmail.com",
+        "password": "$2a$10$AywdbEXtcCEwVYh88Tw3jOewny.pqRnxOfN0d5UT3Lv4Qa/PTB5Em",
+        "role": "user",
+        "verificationToken": "65c284554cf1ed508030569f5b7f7041ba35d262",
+        "createdAt": "2026-05-29T10:54:01.037Z",
+        "updatedAt": "2026-05-29T10:54:01.037Z",
+        "id": "mock_user_1780052041037_61zc",
+        "addresses": [
+          {
+            "street": "Gurukunj Colony Vidyanagar Ganeshpur Bhandara",
+            "city": "Bhandara",
+            "state": "Maharashtra",
+            "zipCode": "441904"
+          }
+        ]
+      },
+      "items": [],
+      "createdAt": "2026-05-29T11:21:02.364Z",
+      "updatedAt": "2026-05-29T11:21:02.364Z",
+      "id": "mock_cart_1780053662364_pp1l"
+    },
+    {
+      "_id": "mock_cart_1784001153667_5b01",
+      "user": "mock_user_1784001153664_75ju",
+      "items": [],
+      "createdAt": "2026-07-14T03:52:33.667Z",
+      "updatedAt": "2026-07-14T03:52:33.667Z"
+    }
+  ],
+  "Review": []
+}
